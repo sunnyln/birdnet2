@@ -14,7 +14,7 @@ Algorithm developed at [Intelligent Systems Laboratory](http://www.uc3m.es/islab
 
 You will need the Detectron2 requirements:
 - Linux with Python ≥ 3.6
-- PyTorch ≥ 1.3
+- PyTorch = 1.3 or 1.4. You should replace all **AT_CHECK** with **TORCH_CHECK** if your PyTorch ≥ 1.5.
 - [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
 	You can install them together at [pytorch.org](https://pytorch.org) to make sure of this.
 - OpenCV
